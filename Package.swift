@@ -21,7 +21,7 @@ let package = Package(
             .branch("master")
         ),
         .package(
-            url: "https://github.com/PureSwift/swift-system.git",
+            url: "https://github.com/blocks-lockers/swift-system.git",
             .branch("master")
         )
     ],
