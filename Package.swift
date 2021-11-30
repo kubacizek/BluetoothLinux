@@ -22,7 +22,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/apple/swift-system.git",
-            .branch("master")
+            .branch("main")
         )
     ],
     targets: [
