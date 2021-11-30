@@ -21,8 +21,8 @@ let package = Package(
             .branch("master")
         ),
         .package(
-            url: "https://github.com/apple/swift-system.git",
-            .branch("main")
+            url: "https://github.com/kubacizek/swift-system.git",
+            .branch("master")
         )
     ],
     targets: [
