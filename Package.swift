@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/PureSwift/Bluetooth.git",
-            .branch("master")
+            .upToNextMajor(from: "5.0.0")
         ),
         .package(
             url: "https://github.com/kubacizek/swift-system.git",
