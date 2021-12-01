@@ -81,6 +81,8 @@ public extension HostController {
         /// even if the devices aren't in range anymore.
         case flushCache = 0x0001
         
+        public typealias AllCases = Set<ScanOption>
+        
         public static let allCases: Set<ScanOption> = [.flushCache]
     }
     
